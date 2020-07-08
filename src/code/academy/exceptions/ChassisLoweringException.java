@@ -1,4 +1,4 @@
-package code.academy;
+package code.academy.exceptions;
 
 public class ChassisLoweringException extends Exception {
     private String reason;

@@ -1,5 +1,9 @@
 package code.academy;
 
+import code.academy.exceptions.ChassisLoweringException;
+import code.academy.exceptions.FatalError;
+import code.academy.exceptions.Warning;
+
 import java.util.Random;
 
 public class Plane {
@@ -17,9 +21,9 @@ public class Plane {
         int randomInt = new Random().nextInt(10);
 
         switch (randomInt) {
-            case 0: throw new ChassisLoweringException("Hydraulic leak");
-            case 1: throw new ChassisLoweringException("Door jam");
-            case 2: throw new ChassisLoweringException("Low pressure");
+            case 0: throw new Warning("Hydraulic leak");
+            case 1: throw new FatalError("Door jam");
+            case 2: throw new Warning("Low pressure");
         }
     }
 }
