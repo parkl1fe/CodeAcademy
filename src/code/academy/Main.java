@@ -5,11 +5,16 @@ public class Main {
     public static void main(String[] args) {
         Plane plane = new Plane();
 
-        plane.lowerChasis();
-        plane.lowerChasis();
-        plane.lowerChasis();
-        plane.lowerChasis();
-        plane.lowerChasis();
+        plane.lowerChassis();
+        plane.lowerChassis();
+        plane.lowerChassis();
+        plane.lowerChassis();
+        plane.lowerChassis();
+        plane.lowerChassis();
+        plane.lowerChassis();
+        plane.lowerChassis();
+        plane.lowerChassis();
+        plane.lowerChassis();
 
     }
 }
